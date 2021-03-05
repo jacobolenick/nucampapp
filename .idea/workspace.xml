@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="973210da-22c6-4247-8295-8252b8e961ae" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/components/images/.expo/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/images/.expo/settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/images/bootstrap-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/images/breadcrumb-trail.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/images/chrome-river.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/images/git-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/images/mongo-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/images/node-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/images/react-lake.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/images/redux-woods.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1p4rArNM9ThODFMj6wQpnp3ZuAj" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="973210da-22c6-4247-8295-8252b8e961ae" name="Default Changelist" comment="" />
+      <created>1614453062354</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1614453062354</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="596" y="223" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1614454278024">
+      <screen x="0" y="25" width="2560" height="1055" />
+    </state>
+    <state x="596" y="223" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.2560.1055@0.25.2560.1055" timestamp="1614454278024" />
+    <state x="220" y="25" width="731" height="664" key="AVDManager" timestamp="1614980847183">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="220" y="25" width="731" height="664" key="AVDManager/0.25.1440.875@0.25.1440.875" timestamp="1614980847183" />
+    <state x="779" y="121" width="1298" height="800" key="AVDManager/0.25.2560.1055@0.25.2560.1055" timestamp="1614473315431" />
+  </component>
+</project>
