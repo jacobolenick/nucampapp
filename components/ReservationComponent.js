@@ -1,15 +1,19 @@
 import React, { Component } from 'react';
 import {
+  Picker,
+  Switch,
   Text,
   View,
   ScrollView,
-  StyleSheet,
-  Picker,
-  Switch,
+  FlatList,
   Button,
-  Modal,
+  StyleSheet,
+  Alert,
+  PanResponder,
 } from 'react-native';
+import * as Animatable from 'react-native-animatable';
 import DateTimePicker from '@react-native-community/datetimepicker';
+
 
 class Reservation extends Component {
   constructor(props) {
@@ -28,14 +32,36 @@ class Reservation extends Component {
     title: 'Reserve Campsite',
   };
 
-  toggleModal() {
-    this.setState({ showModal: !this.state.showModal });
-  }
+  // toggleModal() {
+  //   this.setState({ showModal: !this.state.showModal });
+  // }
 
   handleReservation() {
     console.log(JSON.stringify(this.state));
-    this.toggleModal();
+    // this.toggleModal();
+      Alert.alert(
+          'Begin Search?',
+          `Number of Campers: ${this.state.campers} \n\n Hike-In? ${this.state.hikeIn} \n\n Date: ${this.state.date}`,
+          [
+              {
+                  text: 'Cancel',
+                  onPress: () => this.resetForm(),
+                  style: 'cancel'
+              },
+              {
+                  text: 'OK',
+                  onPress: () => {
+                      this.resetForm();
+                  }
+              }
+          ],
+          { cancelable: false }
+
+      )
+   
   }
+
+
 
   resetForm() {
     this.setState({
@@ -44,12 +70,15 @@ class Reservation extends Component {
       date: new Date(),
       showCalendar: false,
       showModal: false,
+
     });
   }
 
   render() {
     return (
+      <Animatable.View animation="fadeInDown" duration={2000} delay={1000}>
       <ScrollView>
+      
         <View style={styles.formRow}>
           <Text style={styles.formLabel}>Number of Campers</Text>
           <Picker
@@ -106,7 +135,7 @@ class Reservation extends Component {
           />
         </View>
 
-        <Modal
+        {/* <Modal
           animationType={'slide'}
           transparent={false}
           visible={this.state.showModal}
@@ -132,11 +161,20 @@ class Reservation extends Component {
               title="Close"
             />
           </View>
-        </Modal>
-      </ScrollView>
-    );
-  }
-}
+        </Modal> */}
+    
+      
+                  
+                        
+                           
+                            </ScrollView>
+                            </Animatable.View> )
+
+                        }}
+                       
+                        
+            
+        
 
 const styles = StyleSheet.create({
   formRow: {
