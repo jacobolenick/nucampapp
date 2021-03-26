@@ -39,10 +39,10 @@
       <screen x="0" y="25" width="2560" height="1055" />
     </state>
     <state x="596" y="223" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.2560.1055@0.25.2560.1055" timestamp="1614454278024" />
-    <state x="1103" y="44" width="1298" height="800" key="AVDManager" timestamp="1616202754831">
-      <screen x="0" y="25" width="2560" height="1055" />
+    <state x="0" y="309" width="1298" height="800" key="AVDManager" timestamp="1616788904761">
+      <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state x="0" y="25" width="1298" height="800" key="AVDManager/0.25.1440.875@0.25.1440.875" timestamp="1615157156980" />
+    <state x="0" y="309" width="1298" height="800" key="AVDManager/0.25.1440.875@0.25.1440.875" timestamp="1616788904761" />
     <state x="1103" y="44" width="1298" height="800" key="AVDManager/0.25.2560.1055@0.25.2560.1055" timestamp="1616202754831" />
   </component>
 </project>
